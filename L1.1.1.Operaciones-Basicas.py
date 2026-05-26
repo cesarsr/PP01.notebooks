@@ -245,7 +245,7 @@ def _(mo):
 def _(mo):
     mo.md(r"""
     ---
-    ###✏️ Ejercicio 1 — Convertir horas a días<br>
+    ### ✏️ Ejercicio 1 — Convertir horas a días<br>
     Dadas 100 horas, ¿cuántos días completos son y cuántas horas sobran?
     Pista: un día tiene 24 horas. Usa // para los días y % para las horas sobrantes.
     """)
@@ -262,7 +262,7 @@ def _():
 def _(mo):
     mo.md(r"""
     ---
-    ###✏️ Ejercicio 2 — Repartir minutos en bloques
+    ### ✏️ Ejercicio 2 — Repartir minutos en bloques
 
     Tienes **500 minutos** de video y los quieres dividir en bloques de **45 minutos**.
     ¿Cuántos bloques completos puedes armar y cuántos minutos sobran?
