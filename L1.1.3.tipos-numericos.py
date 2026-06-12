@@ -165,7 +165,6 @@ def _(mo):
 
 @app.cell
 def _():
-    # Ejercicio 2a
     int(7.9)
     return
 
