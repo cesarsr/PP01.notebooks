@@ -192,6 +192,13 @@ def _():
     return
 
 
+@app.cell
+def _():
+    # 2**2**3   # Python lo trata como: 2**(2**3)  →  2**8  →  256
+    # (2**2)**3 # se evalúa como:       4**3        →  64
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
