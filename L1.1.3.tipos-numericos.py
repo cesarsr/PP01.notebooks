@@ -290,7 +290,7 @@ def _(mo):
     > La regla int + float = float aplica también a `//`.
 
     ---
-    **→ Siguiente lección: L 1.1.4 — Números complejos y errores de Python**
+    **→ Siguiente lección: L 1.1.4 — Errores en Python**
 
     *¿Qué pasa cuando Python no puede entender lo que escribiste?*
     """)

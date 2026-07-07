@@ -15,10 +15,15 @@ def _():
     return (mo,)
 
 
+@app.cell
+def _():
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    # L 1.1.5 — Errores en Python
+    # L 1.1.4 — Errores en Python
     **Programación con Python I — Fundamentos · Módulo 1 · Unidad 1.1**
 
     ---
@@ -192,8 +197,7 @@ def _(mo):
     | L 1.1.1 | 7 operadores aritméticos: `+` `-` `*` `/` `//` `**` `%` |
     | L 1.1.2 | Orden de operaciones · Paréntesis · Espaciado (PEP 8) |
     | L 1.1.3 | `int` vs `float` · `type()` · Casting: `int()` `float()` |
-    | L 1.1.4 | `complex` |
-    | L 1.1.5 | Mensajes de error: SyntaxError, NameError, ZeroDivisionError |
+    | L 1.1.4 | Mensajes de error: SyntaxError, NameError, ZeroDivisionError |
 
     ---
     **→ Siguiente unidad: U 1.2 — Variables, nombres y legibilidad**

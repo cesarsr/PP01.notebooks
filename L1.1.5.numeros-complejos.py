@@ -18,7 +18,7 @@ def _():
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    # L 1.1.4 — Números complejos
+    # L 1.1.5 — Números complejos
     **Programación con Python I — Fundamentos · Módulo 1 · Unidad 1.1**
 
     ---
@@ -37,8 +37,8 @@ def _(mo):
     Python soporta números complejos de forma nativa.
     Un número complejo tiene una parte real y una parte imaginaria.
 
-    En matemáticas la parte imaginaria usa **i**.
-    Python usa **j** — la convención de la ingeniería.
+    En matemáticas la parte imaginaria usa **`i`**.
+    Python usa **`j`** — la convención de la ingeniería.
     """)
     return
 
@@ -60,7 +60,13 @@ def _(mo):
     mo.md(r"""
     - `(2+3j)` es un número complejo: parte real `2`, parte imaginaria `3j`
     - Su tipo es `<class 'complex'>` — el tercer tipo numérico de Python
+    """)
+    return
 
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
     Puedes operar con números complejos igual que con `int` y `float`:
     """)
     return
@@ -88,7 +94,13 @@ def _():
 def _(mo):
     mo.md(r"""
     Python calcula con números complejos sin ningún problema.
+    """)
+    return
 
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
     > **¿Cuándo se usan?**
     > En ingeniería eléctrica, procesamiento de señales y física.
     > Si no trabajas en esas áreas, con saber que existen es suficiente.
